@@ -9,7 +9,6 @@ function Login() {
         <h3>Subtitulo</h3>
         <big>Esto es un texto grandote</big>
         <p>Esto es un texto simple</p>
-        
       </div>
     );
   }
