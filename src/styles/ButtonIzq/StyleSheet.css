@@ -1,0 +1,31 @@
+.Button_Propiedades{
+    display: inline-flex;
+    height: 5.8125rem;
+    padding: 0.625rem 1.375rem;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+}
+.Button_Propiedades:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), var(--Azul1, #91E7EB);
+}
+.Button_Propiedades:focus{
+    
+}
+
+.Button_estilo{
+    border-radius: 25px;
+    background: var(--Azul1, #91E7EB);
+}
+.Button_texto{
+    size: 2rem;
+}
+
+.Button_iconoDerecha{
+    display: flex;
+    width: 3.125rem;
+    height: 3.125rem;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+}
