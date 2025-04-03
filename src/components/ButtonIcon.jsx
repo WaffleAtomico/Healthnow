@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/ButtonIzq/StyleSheet.css"
+import "../styles/ButtonIcon/StyleSheet.css"
 
 function ButtonIcon(props){ 
   // {iconIzquierda=true, 
