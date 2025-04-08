@@ -1,0 +1,32 @@
+.FN_layout{
+    display: flex;
+    width: 24.5625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4375rem;
+}
+
+.FN_style{
+    background: var(--verde3, #BEF3DA);
+}
+
+.FN_icon{
+    width: 3.125rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+}
+.FN_icon:hover{
+    background: var(--verde3, #638173);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.FN_icon_layout{
+    display: flex;
+    width: 3.125rem;
+    height: 3.125rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+}
