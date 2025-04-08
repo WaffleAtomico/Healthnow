@@ -1,0 +1,13 @@
+.RbS_layout{
+    display: flex;
+    width: 20.125rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RbS_icon{
+    width: 3.125rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+}

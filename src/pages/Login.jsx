@@ -3,6 +3,7 @@ import React from "react";
 import ButtonIcon from "../components/ButtonIcon";
 import FooterNavbar from "../components/FooterNavbar";
 import InputText from "../components/InputText";
+import RateByStars from "../components/RateByStars";
 
 function Login() {
     return (
@@ -15,11 +16,15 @@ function Login() {
           <big>Esto es un texto grandote</big>
           <p>Esto es un texto simple</p> 
         */}
-        <ButtonIcon />
-        <InputText 
+        <ButtonIcon 
+        iconoDerecha="Ubicacion"
+        texto="Texto de boton"/>
+        {/* <InputText 
           infoAdicional="Info Adicional"
           // error="mensaje de error"
-        />
+        /> */}
+
+        <RateByStars />
         <FooterNavbar />
         
       </div>

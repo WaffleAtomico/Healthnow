@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Healthnow/build/static/css/main.8e2a022a.css",
-    "main.js": "/Healthnow/build/static/js/main.731eaacc.js",
+    "main.js": "/Healthnow/build/static/js/main.3d491abd.js",
     "static/js/453.baf4473f.chunk.js": "/Healthnow/build/static/js/453.baf4473f.chunk.js",
     "static/media/Pastilla2.ico": "/Healthnow/build/static/media/Pastilla2.f141fb8cebdba449410e.ico",
     "static/media/Pastilla3.ico": "/Healthnow/build/static/media/Pastilla3.5a48b67d41c516d396e7.ico",
@@ -16,12 +16,12 @@
     "static/media/Notificacion.ico": "/Healthnow/build/static/media/Notificacion.f89581bc75c250071495.ico",
     "static/media/Filtro.ico": "/Healthnow/build/static/media/Filtro.e1a7cca5b2ce95bad7c5.ico",
     "static/media/Neutro.ico": "/Healthnow/build/static/media/Neutro.af3421f50444a98d35b3.ico",
-    "static/media/Estrella1.ico": "/Healthnow/build/static/media/Estrella1.fd77a0861a09b7236564.ico",
+    "static/media/EstrellaVacia.ico": "/Healthnow/build/static/media/EstrellaVacia.fd77a0861a09b7236564.ico",
     "static/media/Terminos.ico": "/Healthnow/build/static/media/Terminos.b2a649f9b514cad73372.ico",
     "static/media/Reloj.ico": "/Healthnow/build/static/media/Reloj.a2c4b7beb1cfd5773701.ico",
     "static/media/Jarabe2.ico": "/Healthnow/build/static/media/Jarabe2.5a0274f03dceaa591881.ico",
     "static/media/Pin.ico": "/Healthnow/build/static/media/Pin.1b3803762b3104c9a380.ico",
-    "static/media/Vector-2.ico": "/Healthnow/build/static/media/Vector-2.a9acfe76611aebf26206.ico",
+    "static/media/EstrellaLlena.ico": "/Healthnow/build/static/media/EstrellaLlena.a9acfe76611aebf26206.ico",
     "static/media/Precio.ico": "/Healthnow/build/static/media/Precio.0995e1c209722f026aad.ico",
     "static/media/Doctores.ico": "/Healthnow/build/static/media/Doctores.bd0507f926fcc488e06e.ico",
     "static/media/Pastilla1.ico": "/Healthnow/build/static/media/Pastilla1.eb002e2115cae3ca8dc6.ico",
@@ -53,11 +53,11 @@
     "static/media/Chat.ico": "/Healthnow/build/static/media/Chat.397d61d528ccfc99af45.ico",
     "index.html": "/Healthnow/build/index.html",
     "main.8e2a022a.css.map": "/Healthnow/build/static/css/main.8e2a022a.css.map",
-    "main.731eaacc.js.map": "/Healthnow/build/static/js/main.731eaacc.js.map",
+    "main.3d491abd.js.map": "/Healthnow/build/static/js/main.3d491abd.js.map",
     "453.baf4473f.chunk.js.map": "/Healthnow/build/static/js/453.baf4473f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e2a022a.css",
-    "static/js/main.731eaacc.js"
+    "static/js/main.3d491abd.js"
   ]
 }
