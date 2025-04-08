@@ -1,0 +1,42 @@
+.InT_layout{
+    display: flex;
+    width: 23.125rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.InT_title_layout{
+    align-self: stretch;
+}
+
+.InT_input_layout{
+    display: flex;
+    height: 2.75rem;
+    padding: 0.625rem;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+}
+.InT_input_style{
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+}
+.InT_input_style:focus{
+    border-radius: 0.625rem;
+    border: 1px solid #3BA5AD;
+}
+.InT_input_style-error{
+    border-radius: 0.625rem;
+    border: 1px solid #FF0800;
+}
+
+
+.InT_aditional_info_layout{
+    display: flex;
+    width: 23.125rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.InT_aditional_info_layout-error{
+    color: #FF0800;
+}
