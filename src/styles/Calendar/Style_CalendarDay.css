@@ -1,0 +1,19 @@
+.CD_layout{
+    display: flex;
+    width: 1.875rem;
+    height: 1.875rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    user-select: none;
+    cursor: pointer;
+}
+.CD_layout:hover{
+    border-radius: 1.5625rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), #91E7EB;
+}
+.CD_layout:active{
+    border-radius: 1.5625rem;
+    border: 2px solid #000;
+    background: #91E7EB;
+}
