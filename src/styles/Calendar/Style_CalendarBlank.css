@@ -1,0 +1,57 @@
+.CB_layout{
+    width: 23.75rem;
+    height: 21.875rem;
+    flex-shrink: 0;
+}
+.CB_style{
+    border-radius: 0.625rem;
+    background: rgba(190, 243, 218, 0.50);
+}
+.CB_icons{
+    width: 2.60419rem;
+    height: 2.60419rem;
+    flex-shrink: 0;
+}
+.CB_icons:hover{
+    background-color: rgba(82, 139, 113, 0.5) ;
+    border-radius: 20px;
+}
+.CB_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0rem 0.3rem 0rem 0.3rem;
+}
+
+.CB_days_list{
+    display: flex;
+    width: 23.625rem;
+    height: 1.875rem;
+    align-items: center;
+    gap: 1.58rem;
+    flex-shrink: 0;
+}
+.CB_days{
+    display: flex;
+    width: 1.875rem;
+    height: 1.875rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    user-select: none;
+}
+.CB_number_month{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 0.9375rem 1.5625rem;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+.CB_number_day{
+    display: flex;
+    width: 1.875rem;
+    height: 1.875rem;
+    justify-content: center;
+    align-items: center;
+}
