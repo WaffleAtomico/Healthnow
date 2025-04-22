@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/ButtonIcon/StyleSheet.css"
+import "../styles/components/ButtonIcon/StyleSheet.css"
 
 function ButtonIcon(props){ 
   // {iconIzquierda=true, 
@@ -24,7 +24,7 @@ function ButtonIcon(props){
       }
       {props.texto && 
         <div className={`Button_Texto ${props.orientacion ? props.orientacion : ''}${props.color ? props.color: ''}`.trimEnd()}>
-            {props.texto}
+            <h1>{props.texto}</h1>
         </div>
       }
       {props.iconoDerecha &&  

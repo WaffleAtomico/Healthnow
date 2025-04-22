@@ -1,0 +1,33 @@
+.SB-layout{
+    display: flex;
+    width: 19.375rem;
+    padding: 0.625rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+}
+.SB-icon{
+    width: 3.125rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+}
+.SB-input-layout{
+    height: 2.75rem;
+    flex: 1 0 0;
+}
+.SB-input-style{
+    border-radius: 1.5625rem;
+    border: 1.5px solid #000;
+    background: #FFF;
+
+    display: flex;
+    width: max-content;
+    padding: 0.625rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+}
+.SB-input-style::selection{
+    border: 1.5px solid #3BA5AD;
+}
+.SB-input-style:focus{
+    border: 1.5px solid #3BA5AD;
+}

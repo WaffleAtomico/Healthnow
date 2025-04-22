@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../styles/Calendar/Style_CalendarBlank.css"
+import "../../styles/components/Calendar/Style_CalendarBlank.css"
 import CalendarDay from "./CalendarDay";
 
 

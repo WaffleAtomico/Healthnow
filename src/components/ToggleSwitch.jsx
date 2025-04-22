@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "../styles/ToggleSwitch/StyleSheet.css"
+import "../styles/components/ToggleSwitch/StyleSheet.css"
 
 function ToggleSwitch() {
     const [estadoAct, setEstadoAct] = useState(false)

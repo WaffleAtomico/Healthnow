@@ -2,43 +2,24 @@ import React from "react";
 
 
 
-import "../styles/FooterNavbar/StyleSheet.css"
+import "../styles/components/FooterNavbar/StyleSheet.css"
 
-function FooterNavbar(){ 
+function FooterNavbar(props){ 
+
     return(
         <div className="FN_layout FN_style">
-            <div className="FN_icon">
+            {props.iconsNames.map((module, index)=> (
+                <div 
+                    className="FN_icon"
+                    key={index}
+                    onClick={()=>props.handleOptionSelected(index)}>
                 <img
                     className='FN_icon_layout'
-                    src={require(`../icons/Home.ico`)} 
+                    src={require(`../icons/${module}.ico`)} 
                     alt='Icono Derecho del boton'
-                    // onClick={}
                 />
-            </div>
-            <div className="FN_icon">
-                <img
-                    className='FN_icon_layout'
-                    src={require(`../icons/Receta2.ico`)} 
-                    alt='Icono Derecho del boton'
-                    // onClick={}
-                />
-            </div>
-            <div className="FN_icon">
-                <img
-                    className='FN_icon_layout'
-                    src={require(`../icons/Notificacion.ico`)} 
-                    alt='Icono Derecho del boton'
-                    // onClick={}
-                />
-            </div>
-            <div className="FN_icon">
-                <img
-                    className='FN_icon_layout'
-                    src={require(`../icons/Perfil.ico`)} 
-                    alt='Icono Derecho del boton'
-                    // onClick={}
-                />
-            </div>
+                </div>
+            ))}
         </div>
     )
 }

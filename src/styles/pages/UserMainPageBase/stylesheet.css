@@ -1,0 +1,8 @@
+.UMP-content{
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    box-sizing: border-box;
+    padding-top: 7rem;
+    overflow-y: scroll;
+}

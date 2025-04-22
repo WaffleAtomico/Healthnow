@@ -1,0 +1,21 @@
+.HG_layout{
+    position: fixed;     
+    top: 0;              
+    left: 0;             
+    width: 100vw;  
+
+    background-color: antiquewhite; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1.5rem;
+
+    z-index: 20;
+}
+.HG_icon{
+    height: 60px;
+    padding: 0.2rem 0.5rem;
+}
+.HG_text{
+    
+}
