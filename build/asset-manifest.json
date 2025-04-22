@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Healthnow/build/static/css/main.fcb24b0c.css",
-    "main.js": "/Healthnow/build/static/js/main.054850c1.js",
+    "main.css": "/Healthnow/build/static/css/main.021a4b83.css",
+    "main.js": "/Healthnow/build/static/js/main.aaaf20fc.js",
     "static/js/453.baf4473f.chunk.js": "/Healthnow/build/static/js/453.baf4473f.chunk.js",
     "static/media/Pastilla2.ico": "/Healthnow/build/static/media/Pastilla2.f141fb8cebdba449410e.ico",
     "static/media/Pastilla3.ico": "/Healthnow/build/static/media/Pastilla3.5a48b67d41c516d396e7.ico",
@@ -34,6 +34,7 @@
     "static/media/Vector.ico": "/Healthnow/build/static/media/Vector.6983dec0c14f5faa70cc.ico",
     "static/media/Temperatura.ico": "/Healthnow/build/static/media/Temperatura.de68f80a6224c4e9896c.ico",
     "static/media/Ubicacion.ico": "/Healthnow/build/static/media/Ubicacion.449e757cb5130fea4431.ico",
+    "static/media/Corazon.ico": "/Healthnow/build/static/media/Corazon.794f6535259c576cdb6b.ico",
     "static/media/configuraciones.ico": "/Healthnow/build/static/media/configuraciones.55fb1ef2f36a1bd70f55.ico",
     "static/media/Check.ico": "/Healthnow/build/static/media/Check.d35a681c5c2ccccfdbf8.ico",
     "static/media/Jarabe.ico": "/Healthnow/build/static/media/Jarabe.5c440fd9d14d5ec80ca4.ico",
@@ -52,12 +53,12 @@
     "static/media/Mapa.ico": "/Healthnow/build/static/media/Mapa.8947ab3ac7cfddbb8c0e.ico",
     "static/media/Chat.ico": "/Healthnow/build/static/media/Chat.397d61d528ccfc99af45.ico",
     "index.html": "/Healthnow/build/index.html",
-    "main.fcb24b0c.css.map": "/Healthnow/build/static/css/main.fcb24b0c.css.map",
-    "main.054850c1.js.map": "/Healthnow/build/static/js/main.054850c1.js.map",
+    "main.021a4b83.css.map": "/Healthnow/build/static/css/main.021a4b83.css.map",
+    "main.aaaf20fc.js.map": "/Healthnow/build/static/js/main.aaaf20fc.js.map",
     "453.baf4473f.chunk.js.map": "/Healthnow/build/static/js/453.baf4473f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcb24b0c.css",
-    "static/js/main.054850c1.js"
+    "static/css/main.021a4b83.css",
+    "static/js/main.aaaf20fc.js"
   ]
 }
