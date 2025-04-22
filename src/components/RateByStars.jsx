@@ -3,6 +3,7 @@ import React, { useState } from "react";
 // import Estrella1 from "../icons/svgIcons/Estrella1.svg"
 // import Estrella2  from "../icons/svgIcons/Estrella2.svg"
 
+import "../styles/components/RateByStarts/StyleSheet.css"
 
 function RateByStars(){
     

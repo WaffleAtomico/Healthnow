@@ -7,6 +7,9 @@
 
 .InT_title_layout{
     align-self: stretch;
+    bottom: 0px;
+    padding: 0px;
+
 }
 
 .InT_input_layout{
@@ -20,6 +23,7 @@
 .InT_input_style{
     border-radius: 0.625rem;
     border: 1px solid #000;
+    /* padding-inline-start: 6px; */
 }
 .InT_input_style:focus{
     border-radius: 0.625rem;

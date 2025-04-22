@@ -1,8 +1,15 @@
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
   margin: 0;
   font-family: "Lateef", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
+  
 }
 
 .lateef-extralight {

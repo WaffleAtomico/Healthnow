@@ -1,0 +1,11 @@
+.GS-horizontalContent{
+
+}
+
+.GS-verticalContent{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    gap: 0.5rem;
+    padding-bottom: 5rem;
+}

@@ -1,0 +1,31 @@
+.tc-text{
+    left: 0;
+    position: absolute;
+    
+    justify-content: center;
+    text-align: justify;
+    overflow-y: scroll;
+    padding: 7rem 2rem 9rem 2rem;
+    box-sizing: border-box;
+
+}
+
+.tc-footer{
+    left: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(172, 171, 171);
+    
+    z-index: 50;
+
+    display: flex;
+    justify-content:center;
+    align-items: start;
+}
+
+
+
+.tc-button{
+    padding: 0.5rem;
+}

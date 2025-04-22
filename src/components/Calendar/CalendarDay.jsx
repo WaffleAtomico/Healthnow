@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/Calendar/Style_CalendarDay.css"
+import "../../styles/components/Calendar/Style_CalendarDay.css"
 
 function CalendarDay({ dia }){
     return (

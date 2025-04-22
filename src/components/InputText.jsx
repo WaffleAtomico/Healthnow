@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import "../styles/InputText/StyleSheet.css"
+import "../styles/components/InputText/StyleSheet.css"
 
 
 // Pendiente de revisar, dimensiones y el componente con sus estilos en general
@@ -23,10 +23,12 @@ function InputText(props){
 
     return(
         <div className="InT_layout">
-            <p className="InT_title_layout">
+            <div className="InT_title_layout">
                 {props.titulo ? props.titulo : "Título"} {props.obligatorio ? "*" : ""}
-            </p>
-            <input className={`InT_input_style${error ? "-error" : ""}`} type="text" /> 
+            </div>
+            <input className={`InT_input_style${error ? "-error" : ""}`} 
+                    type={props.type || "text"} 
+            /> 
             {(props.infoAdicional || error) &&
                 <div className= {`InT_aditional_info_layout${error ? "-error" : ""}`} >
                     {props.infoAdicional}

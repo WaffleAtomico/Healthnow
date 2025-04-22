@@ -6,17 +6,32 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import StartPage from './pages/Startpage';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import Termsconditions from './pages/Termsconditions';
+import Usermainpage from './pages/UserMainPage';
 
 const router = createBrowserRouter([
   {
     path: "Healthnow/build/",
-    element: <Login/>
+    element: <StartPage />
+  },
+  {
+    path: "Healthnow/build/login",
+    element: <Login />
   },
   {
     path: "Healthnow/build/signup",
     element: <Signup />
+  },
+  {
+    path: "Healthnow/build/terms&conditions",
+    element: <Termsconditions />
+  },
+  {
+    path: "Healthnow/build/mainpage",
+    element: <Usermainpage />
   }
 ])
 
