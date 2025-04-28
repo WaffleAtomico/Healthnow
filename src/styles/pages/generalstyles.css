@@ -1,5 +1,9 @@
 .GS-horizontalContent{
-
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    gap: 0.5rem;
+   
 }
 
 .GS-verticalContent{
@@ -8,4 +12,11 @@
     overflow-y: scroll;
     gap: 0.5rem;
     padding-bottom: 5rem;
+}
+
+.GS-centerItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }

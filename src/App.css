@@ -13,6 +13,26 @@
   }
 }
 
+:root{
+  /* Azules y colores normales */
+  --azul1: #164245;
+  --azul2: #3BA5AD;
+  --azul3: #91E7EB;
+  --azul4: #BEF3DA;
+  --azul5: #BBD4F3;
+
+  /* Escala de negros */
+  --Black1: #000000;
+  --Darkgray1: #404040;
+  --Lightgray1: #A7A7A7;
+  --White1: #E8E8E8;
+
+  /* Sistema */
+  --Fail: #FF0800;
+  --Dangereux: #FFDA03;
+  --Success: #03AC13;
+}
+
 
 h1 {
   font-size: 6rem;
@@ -64,6 +84,8 @@ p{
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {

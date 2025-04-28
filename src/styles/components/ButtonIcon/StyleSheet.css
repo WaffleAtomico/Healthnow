@@ -1,39 +1,46 @@
-.Button_Propiedades{
-    display: inline-flex;
+.BuI-size-small{
+    height: 2rem;
+    
+}
+
+.BuI-size-medium{
     height: 5.8125rem;
+}
+
+.BuI-size-big{
+    height: 9rem;
+}
+
+/* style={{height: "2rem", width: "14rem"}} */
+.BuI-propiedades{
+    display: inline-flex;
+    /* height: 5.8125rem; */
     padding: 0.625rem 1.375rem;
     align-items: center;
     gap: 0.5rem;
     flex-shrink: 0;
+    user-select: none;
 }
-.Button_Propiedades:hover{
+.BuI-propiedades:hover{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), var(--Azul1, #91E7EB);
 }
-.Button_Propiedades:focus{
-    
-}
 
-.Button_estilo{
+
+.BuI-estilo{
     border-radius: 25px;
     background: var(--Azul1, #91E7EB);
 }
-.Button_texto{
+.BuI-texto{
+    user-select: none;
+    cursor: pointer;
     size: 2rem;
+    color: black;
 }
-.Button_texto:visited{
+.BuI-texto:visited{
     color: black;
 }
 
-.Button_iconoDerecha{
-    display: flex;
-    width: 3.125rem;
-    height: 3.125rem;
-    justify-content: center;
-    align-items: center;
-    aspect-ratio: 1/1;
-}
-
-.Button_iconoIzquierda{
+.BuI-icon{
     display: flex;
     width: 3.125rem;
     height: 3.125rem;

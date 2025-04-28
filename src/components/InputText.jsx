@@ -1,41 +1,61 @@
 import React, { useEffect, useState } from "react";
+import "../styles/components/InputText/StyleSheet.css";
 
-import "../styles/components/InputText/StyleSheet.css"
+function InputText(props) {
+    const [error, setError] = useState("");
+    const [infoAdicional, setInfoAdicional] = useState("");
+    const [inputValue, setInputValue] = useState("");
 
-
-// Pendiente de revisar, dimensiones y el componente con sus estilos en general
-function InputText(props){ 
-    const [error, SetError] = useState("");
-    const [infoAdicional, SetInfoAdicional] = useState("");
-
-    useEffect(()=>{
-        if(props.error){
-            SetError("Hola soy un error");
+    useEffect(() => {
+        if (props.error) {
+            setError(props.error);
+        } else {
+            setError("");
         }
-    },props.infoAdicional);
 
-    useEffect(()=>{
-        if(props.error){
-            SetInfoAdicional("Hola soy un error");
+        if (props.infoAdicional) {
+            setInfoAdicional(props.infoAdicional);
         }
-    },props.error);
+    }, [props.error, props.infoAdicional]);
 
+    useEffect(() => {
+        if (props.value) {
+            setInputValue(props.value);
+        } else if (props.placeholder && props.type !== "date") {
+            setInputValue(props.placeholder);
+        }
+    }, [props.value, props.placeholder]);
 
-    return(
+    const handleChange = (e) => {
+        const newValue = e.target.value;
+        setInputValue(newValue);
+        
+        if (props.onChange) {
+            props.onChange(e);
+        }
+    };
+
+    return (
         <div className="InT_layout">
             <div className="InT_title_layout">
-                {props.titulo ? props.titulo : "Título"} {props.obligatorio ? "*" : ""}
+                {props.titulo || "Título"} {props.obligatorio && "*"}
             </div>
-            <input className={`InT_input_style${error ? "-error" : ""}`} 
-                    type={props.type || "text"} 
-            /> 
-            {(props.infoAdicional || error) &&
-                <div className= {`InT_aditional_info_layout${error ? "-error" : ""}`} >
-                    {props.infoAdicional}
+            
+            <input
+                className={`InT_input_style${error ? "-error" : ""}`}
+                type={props.type || "text"}
+                placeholder={props.placeholder || props.titulo}
+                value={inputValue}
+                onChange={handleChange}
+            />
+            
+            {(infoAdicional || error) && (
+                <div className={`InT_aditional_info_layout${error ? "-error" : ""}`}>
+                    {error || infoAdicional}
                 </div>
-            } 
+            )}
         </div>
-    )
+    );
 }
 
-export default InputText
+export default InputText;

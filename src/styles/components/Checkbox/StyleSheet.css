@@ -1,0 +1,55 @@
+.ChB-container{
+    display: inline-flex;
+    align-items: center; 
+    cursor: pointer;
+    line-height: 1.1;
+
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 2em;
+    
+}
+.ChB-layout{
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    display: none;
+}
+
+.ChB-layout:hover{
+    background-color: #3BA5AD;
+}
+
+.ChB-label{
+    font-size: larger;
+}
+
+.ChB-checked{
+    width: 2rem;
+    height: 2rem;
+    aspect-ratio: 1/1;
+    /* flex-shrink: 0; */
+
+    border-radius: 0.3125rem;
+    border: 1px solid #000;
+    background: var(--Azul1, #91E7EB);
+
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+   
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.ChB-unchecked{
+    width: 2rem;
+    height: 2rem;
+    /* flex-shrink: 0; */
+    border-radius: 0.3125rem;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+

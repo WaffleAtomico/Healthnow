@@ -12,11 +12,10 @@ function Searchbar(){
                     alt='Icono de barra de busqueda' 
                 />
             </div>
-            <div 
-                className="SB-input-layout">
+            <div className="SB-input-layout">
                 <input 
                     className ="SB-input-style"
-                     type="text" 
+                    type="text" 
                 />
             </div>
         </div>
