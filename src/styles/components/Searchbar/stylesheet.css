@@ -1,9 +1,9 @@
 .SB-layout{
     display: flex;
-    width: 19.375rem;
+    width: 20.375rem;
     padding: 0.625rem;
     align-items: flex-start;
-    gap: 0.625rem;
+    gap: 0.625rem; 
 }
 .SB-icon{
     width: 3.125rem;
@@ -20,8 +20,8 @@
     background: #FFF;
 
     display: flex;
-    width: max-content;
-    padding: 0.625rem;
+    width: 100%;
+    padding: 0.825rem;
     align-items: flex-start;
     gap: 0.625rem;
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import "../styles/components/ButtonIcon/StyleSheet.css"
 
@@ -10,27 +10,34 @@ function ButtonIcon(props){
   // colorTexto="black",
   // colorFondo="#91E7EB",
   // Accion,}
+
+  const variableColor = props.color || 'azul3';
+  const styleOptional = {
+    width: props.width ? `${props.width}rem` : undefined,
+    backgroundColor: `var(--${variableColor})`
+  };
     
     return (
-      <div className="Button_Propiedades Button_estilo" >
+      <div className={`BuI-propiedades  BuI-estilo  BuI-size-${props.size ? props.size : "small"}`} 
+            style={styleOptional}>
        {props.iconoIzquierda &&  
-        <div className="Button_IconoIzquierda">
+        <div >
             <img
-              className='Button_iconoIzquierda'
+              className='BuI-icon'
               src={require(`../icons/${props.iconoIzquierda}.ico`)} 
               alt='Icono Izquierdo del boton' 
             />
         </div> 
       }
       {props.texto && 
-        <div className={`Button_Texto ${props.orientacion ? props.orientacion : ''}${props.color ? props.color: ''}`.trimEnd()}>
-            <h1>{props.texto}</h1>
+        <div >
+            <h1 className="BuI-texto">{props.texto}</h1>
         </div>
       }
       {props.iconoDerecha &&  
-        <div className="Button_IconoDerecha">
+        <div >
             <img
-              className='Button_iconoDerecha'
+              className='BuI-icon'
               src={require(`../icons/${props.iconoDerecha}.ico`)} 
               alt='Icono Derecho del boton' 
             />

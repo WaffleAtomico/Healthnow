@@ -1,0 +1,10 @@
+.SP-logo{
+    display: flex;
+    width: 14.25rem;
+    height: 14.4375rem;
+    padding: 2.25rem 0.875rem 2.1875rem 0.875rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}

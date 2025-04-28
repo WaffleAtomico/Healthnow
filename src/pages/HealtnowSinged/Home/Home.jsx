@@ -18,12 +18,14 @@ function Home() {
           <ButtonIcon 
             iconoIzquierda={"Pastilla1"}
             texto={"Agendar cita"}
+            width={"21"}
           />
         </div>
         <div>
           <ButtonIcon 
             iconoIzquierda={"Pin"}
             texto={"Cita proxima"}
+            width={"21"}
         />
         </div>
       </div>
