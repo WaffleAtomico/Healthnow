@@ -1,0 +1,11 @@
+.FQ-layout{
+    display: flex;
+    width: 27.0625rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}
+.FQ-style{
+    border-radius: 1.875rem;
+}

@@ -28,7 +28,7 @@ function TermsConditions() {
             <p> <h3>4. Privacidad y Protección de Datos</h3> Nos comprometemos a proteger su privacidad. Consulte nuestra Política de Privacidad para conocer cómo recopilamos, usamos y protegemos su información personal.</p>
             <p> <h3>5. Responsabilidad y Limitaciones</h3> No garantizamos la exactitud ni la disponibilidad continua de la Aplicación. No somos responsables de daños directos o indirectos derivados del uso de la Aplicación. El uso de la Aplicación es bajo su propio riesgo.</p>
             <p> <h3>6. Modificaciones</h3> Nos reservamos el derecho de modificar estos Términos en cualquier momento. Se le notificará sobre cambios importantes. El uso continuado de la Aplicación después de dichas modificaciones implica su aceptación.</p>
-            <p> <h3>7. Contacto</h3> Si tiene preguntas sobre estos Términos, puede contactarnos en [Correo Electrónico de Contacto].</p>
+            <p> <h3>7. Contacto</h3> Si tiene preguntas sobre estos Términos, puede contactarnos en support@healthnow.mx.</p>
             <h2> Gracias por utilizar HealthNow.</h2> 
         </div>
         <footer className="tc-footer">
