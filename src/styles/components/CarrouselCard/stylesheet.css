@@ -1,0 +1,56 @@
+.CaC-layout{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    /* padding: 20px; */
+}
+
+.CaC-ul{
+    flex: 1 1 auto;
+    width: 50vw;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    gap: 4vw;
+
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.CaC-li{
+    list-style-type: none;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 20px;
+
+    flex: 0 0 100%;
+
+    scroll-snap-align: center;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CaC-leftButton,
+.CaC-rightButton {
+  flex: 0 0 60px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--azul3);
+  border-radius: 20px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.CaC-leftButton {
+  border-radius: 20px 0 0 20px;
+}
+.CaC-rightButton {
+  border-radius: 0 20px 20px 0;
+}
+
+.CaC-Content{
+    display: flex;
+    flex-direction: column;
+    /* height: 200px; */
+}

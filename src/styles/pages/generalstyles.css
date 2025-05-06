@@ -1,7 +1,12 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 .GS-horizontalContent{
     display: flex;
     flex-direction: row;
     overflow-y: scroll;
+    
     gap: 0.5rem;
    
 }
@@ -19,4 +24,15 @@
     align-items: center;
     justify-content: center;
     
+}
+
+.GS-horizontalContent,
+.GS-verticalContent {
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+
+.GS-horizontalContent::-webkit-scrollbar,
+.GS-verticalContent::-webkit-scrollbar {
+    display: none; 
 }
