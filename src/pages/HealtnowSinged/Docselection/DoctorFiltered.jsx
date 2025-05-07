@@ -6,7 +6,9 @@ import CarrouselCard from "../../../components/CarrouselCard/CarrouselCard";
 import 'leaflet/dist/leaflet.css';
 import '../../../styles/pages/generalstyles.css'
 
-function DcotorFiltered() {
+function DoctorFiltered() {
+    const center = [20.6083169, -103.4147837];
+
     return (
       <div>
        
@@ -29,4 +31,4 @@ function DcotorFiltered() {
     );
   }
 
-export default DcotorFiltered
+export default DoctorFiltered

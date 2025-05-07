@@ -9,6 +9,7 @@
     left: 50%;
     transform: translateX(-50%);
     padding: 0.5rem;
+    z-index: 1001;
 }
 
 .FN_style{
