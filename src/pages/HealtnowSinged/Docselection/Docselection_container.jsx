@@ -2,17 +2,25 @@
 import React, { useState } from "react";
 
 
-const center = [20.6083169, -103.4147837];
-
+import DoctorFiltered from "./DoctorFiltered"
+import Schedule from "./Schedule"
+import Confirmation from  "./Confirmation"
 
 function Docselection_container() {
-   const [position, setPosition] = useState([0, 0]);
+    const [ChangeSlide, setChangeSlide] = useState(0)
+    console.log("Estoy dentro")
+    
+    const changeSlideEvent = (slide) => {
+      setChangeSlide(slide);
+    }
 
     return (
       <div>
-        
+        {ChangeSlide === 0 && <DoctorFiltered />}
+        {ChangeSlide === 1 && <Schedule />}
+        {ChangeSlide === 2 && <Confirmation />}
       </div>
-    );
+    );    
   }
 
 export default Docselection_container

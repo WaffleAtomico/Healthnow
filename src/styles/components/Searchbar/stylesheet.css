@@ -1,7 +1,10 @@
 .SB-layout{
     display: flex;
-    width: 20.375rem;
+    /* width: 20.375rem; */
+    width: 70%;
+    align-self: center;
     padding: 0.625rem;
+    margin-left: 2rem;
     align-items: flex-start;
     gap: 0.625rem; 
 }

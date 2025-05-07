@@ -5,9 +5,7 @@ import FooterNavbar from "../components/FooterNavbar"
 import HeaderGeneral from "../components/HeaderGeneral"
 
 import Home from "./HealtnowSinged/Home/Home"
-import Docselection_container from "./HealtnowSinged/Docselection/Docselection_container"
 import Editaccount from "./HealtnowSinged/EditAccount/Editaccount"
-import Form from "./HealtnowSinged/Form/Form_container"
 import Notifications from "./HealtnowSinged/Notifications/Notifications_container"
 import Prescriptions from "./HealtnowSinged/Prescriptions/Prescriptions"
 

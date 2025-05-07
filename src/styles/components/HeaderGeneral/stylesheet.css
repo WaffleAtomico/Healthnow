@@ -10,7 +10,7 @@
     justify-content: left;
     gap: 1.5rem;
 
-    z-index: 20;
+    z-index: 1001;
 }
 .HG_icon{
     height: 60px;

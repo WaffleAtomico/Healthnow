@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 import "../styles/components/FooterNavbar/StyleSheet.css"
 
 function FooterNavbar(props){ 
