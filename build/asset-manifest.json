@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Healthnow/build/static/css/main.907d2e82.css",
-    "main.js": "/Healthnow/build/static/js/main.2d42f8ab.js",
+    "main.css": "/Healthnow/build/static/css/main.9f451836.css",
+    "main.js": "/Healthnow/build/static/js/main.bdf61bbd.js",
     "static/js/453.baf4473f.chunk.js": "/Healthnow/build/static/js/453.baf4473f.chunk.js",
     "static/media/LogoHealthNow.ico": "/Healthnow/build/static/media/LogoHealthNow.643ebde001822e91fb69.ico",
     "static/media/Pastilla2.ico": "/Healthnow/build/static/media/Pastilla2.f141fb8cebdba449410e.ico",
@@ -26,7 +26,9 @@
     "static/media/Precio.ico": "/Healthnow/build/static/media/Precio.0995e1c209722f026aad.ico",
     "static/media/Doctores.ico": "/Healthnow/build/static/media/Doctores.bd0507f926fcc488e06e.ico",
     "static/media/Pastilla1.ico": "/Healthnow/build/static/media/Pastilla1.eb002e2115cae3ca8dc6.ico",
+    "static/media/cuerpodelante.png": "/Healthnow/build/static/media/cuerpodelante.efb0f8282d5afae0a69e.png",
     "static/media/Jeringa2.ico": "/Healthnow/build/static/media/Jeringa2.bae4b16e1354301a5f95.ico",
+    "static/media/cuerpoatras.png": "/Healthnow/build/static/media/cuerpoatras.188512dad5bdeaa7a122.png",
     "static/media/Receta1.ico": "/Healthnow/build/static/media/Receta1.3d976632d419cc5174eb.ico",
     "static/media/Perfil.ico": "/Healthnow/build/static/media/Perfil.1d02761b39e6efb0b91c.ico",
     "static/media/Abajo.ico": "/Healthnow/build/static/media/Abajo.95e153f70ed725fd0771.ico",
@@ -54,12 +56,12 @@
     "static/media/Mapa.ico": "/Healthnow/build/static/media/Mapa.8947ab3ac7cfddbb8c0e.ico",
     "static/media/Chat.ico": "/Healthnow/build/static/media/Chat.397d61d528ccfc99af45.ico",
     "index.html": "/Healthnow/build/index.html",
-    "main.907d2e82.css.map": "/Healthnow/build/static/css/main.907d2e82.css.map",
-    "main.2d42f8ab.js.map": "/Healthnow/build/static/js/main.2d42f8ab.js.map",
+    "main.9f451836.css.map": "/Healthnow/build/static/css/main.9f451836.css.map",
+    "main.bdf61bbd.js.map": "/Healthnow/build/static/js/main.bdf61bbd.js.map",
     "453.baf4473f.chunk.js.map": "/Healthnow/build/static/js/453.baf4473f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.907d2e82.css",
-    "static/js/main.2d42f8ab.js"
+    "static/css/main.9f451836.css",
+    "static/js/main.bdf61bbd.js"
   ]
 }
