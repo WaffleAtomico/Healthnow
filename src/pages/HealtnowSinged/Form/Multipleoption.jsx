@@ -14,15 +14,20 @@ function Multipleoption({ changeSlideEvent, ChangeContentTo }) {
       <div className="GS-verticalContent">
         <FormQuestion 
           text={"¿Cual de estas actividades fisicas realizas?"}/>
-          <Checkbox text={"Caminata"}/>
-          <Checkbox text={"Deporte"}/>
-          <Checkbox text={"Natación"}/>
-
+          <div>
+            <Checkbox text={"Caminata"}/>
+            <Checkbox text={"Deporte"}/>
+            <Checkbox text={"Natación"}/> 
+          </div>
+          
         <FormQuestion 
           text={"¿Qué síntomas has experimentado recientemente?"}/>
-          <Checkbox text={"Dolor de cabeza"}/>
-          <Checkbox text={"Dolor muscular"}/>
-          <Checkbox text={"Fiebre"}/>
+          <div>
+            <Checkbox text={"Dolor de cabeza"}/>
+            <Checkbox text={"Dolor muscular"}/>
+            <Checkbox text={"Fiebre"}/>   
+          </div>
+              
 
 
         <div className="FM-bottom"> 

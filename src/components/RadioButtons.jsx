@@ -24,6 +24,7 @@ const VisualRadioButton = ({ checked, label, onClick }) => {
         marginRight: 10,
         cursor: 'pointer',
         userSelect: 'none',
+        alignSelf: "self-start"
       }}
       role="radio"
       aria-checked={checked}
@@ -47,7 +48,16 @@ function RadioButtons({ items }){
   );
 
   return (
-    <div role="radiogroup" style={{ display: 'flex', gap: '20px', display: "flex", flexDirection: "column" }}>
+    <div role="radiogroup" 
+      style={{ display: 'flex',
+               gap: '20px', 
+               display: "flex",
+               flexDirection: "column", 
+               flexShrink: "0",
+               alignItems: "center",
+               alignSelf: "self-start", 
+               paddingLeft: "10%"
+              }}>
       {items.map(({ label }, idx) => (
         <VisualRadioButton
           key={idx}
