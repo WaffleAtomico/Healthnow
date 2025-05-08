@@ -5,30 +5,39 @@ import FormQuestion from "../../../components/FormQuestion";
 import Checkbox from "../../../components/Checkbox";
 
 import "../../../styles/pages/generalstyles.css"
+import "../../../styles/pages/Form/FormStylesheet.css"
+
 
 
 function Multipleoption({ changeSlideEvent, ChangeContentTo }) {
     return (
-      <div>
+      <div className="GS-verticalContent">
         <FormQuestion 
-          text={"¿Con qué frecuencia realizas actividad física moderada (Ej. Caminar rápido o andar en bicicleta)?"}/>
-        <Checkbox text={"Mucha"}/>
-        <Checkbox text={"Depende"}/>
-        <Checkbox text={"Demasiada"}/>
+          text={"¿Cual de estas actividades fisicas realizas?"}/>
+          <Checkbox text={"Caminata"}/>
+          <Checkbox text={"Deporte"}/>
+          <Checkbox text={"Natación"}/>
+
+        <FormQuestion 
+          text={"¿Qué síntomas has experimentado recientemente?"}/>
+          <Checkbox text={"Dolor de cabeza"}/>
+          <Checkbox text={"Dolor muscular"}/>
+          <Checkbox text={"Fiebre"}/>
 
 
-
-        <div className="GS-horizontalContent"> 
+        <div className="FM-bottom"> 
           <div onClick={() => changeSlideEvent(1)}>
             <ButtonIcon 
             texto={"Atras"}
-            color={"Fail"}/>
+            iconoIzquierda={"Atras"}
+            />
           </div>
 
           <div onClick={() => ChangeContentTo(0)}>
             <ButtonIcon 
             texto={"Diagnostico"}
-            color={"Success"}/>
+            iconoDerecha={"Feliz"}
+            color={"verde1"}/>
           </div>
         </div>
       </div>

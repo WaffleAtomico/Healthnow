@@ -2,6 +2,8 @@
     width: 3.0625rem;
     height: 2rem;
     flex-shrink: 0;
+    align-items: center;
+    align-self: center;
 }
 .TgS_style{
     fill: #FFF;
