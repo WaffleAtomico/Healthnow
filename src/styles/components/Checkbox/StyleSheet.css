@@ -3,11 +3,12 @@
     align-items: center; 
     cursor: pointer;
     line-height: 1.1;
-
     display: grid;
     grid-template-columns: 1em auto;
     gap: 2em;
-    
+    /* margin: 0.625rem; */
+    margin-top: 0.625rem;
+    padding-left: 5%;
 }
 .ChB-layout{
     width: 2rem;
