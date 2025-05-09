@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Healthnow/build/static/css/main.215ea1ea.css",
-    "main.js": "/Healthnow/build/static/js/main.7844def4.js",
+    "main.js": "/Healthnow/build/static/js/main.65676584.js",
     "static/js/453.baf4473f.chunk.js": "/Healthnow/build/static/js/453.baf4473f.chunk.js",
     "static/media/LogoHealthNow.ico": "/Healthnow/build/static/media/LogoHealthNow.643ebde001822e91fb69.ico",
     "static/media/Pastilla2.ico": "/Healthnow/build/static/media/Pastilla2.f141fb8cebdba449410e.ico",
@@ -57,11 +57,11 @@
     "static/media/Chat.ico": "/Healthnow/build/static/media/Chat.397d61d528ccfc99af45.ico",
     "index.html": "/Healthnow/build/index.html",
     "main.215ea1ea.css.map": "/Healthnow/build/static/css/main.215ea1ea.css.map",
-    "main.7844def4.js.map": "/Healthnow/build/static/js/main.7844def4.js.map",
+    "main.65676584.js.map": "/Healthnow/build/static/js/main.65676584.js.map",
     "453.baf4473f.chunk.js.map": "/Healthnow/build/static/js/453.baf4473f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.215ea1ea.css",
-    "static/js/main.7844def4.js"
+    "static/js/main.65676584.js"
   ]
 }

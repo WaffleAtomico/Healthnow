@@ -2,15 +2,18 @@ import React, { useState } from "react";
 import { MapContainer, TileLayer } from 'react-leaflet';
 
 import CarrouselCard from "../../../components/CarrouselCard/CarrouselCard";
+import ButtonIcon from "../../../components/ButtonIcon";
 
 import 'leaflet/dist/leaflet.css';
 import '../../../styles/pages/generalstyles.css'
+import "../../../styles/pages/Form/FormStylesheet.css"
 
-function DoctorFiltered() {
+
+function DoctorFiltered({changeSlideAct, ChangeContentTo}) {
     const center = [20.6083169, -103.4147837];
 
     return (
-      <div>
+      <div >
        
         <div className="GS-verticalContent GS-centerItems">
           <h1>Selecciona un doctor para agendar tu cita</h1>
@@ -25,7 +28,23 @@ function DoctorFiltered() {
               attribution='&copy; OpenStreetMap contributors'
             />
           </MapContainer>
-          <CarrouselCard />
+          
+          <div className="FM-bottom"> 
+            <div onClick={() => ChangeContentTo(0)}>
+              <ButtonIcon
+                iconoIzquierda={"Atras"}
+                texto={"Volver"} />
+            </div>
+
+            <div onClick={() => changeSlideAct(1)}>
+              <ButtonIcon 
+                texto={"Siguiente"}
+                iconoDerecha={"Adelante"}
+                color={"verde1"}
+              />
+            </div>
+          </div>
+
         </div>
       </div>
     );
