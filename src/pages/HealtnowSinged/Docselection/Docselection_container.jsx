@@ -6,9 +6,8 @@ import DoctorFiltered from "./DoctorFiltered"
 import Schedule from "./Schedule"
 import Confirmation from  "./Confirmation"
 
-function Docselection_container() {
+function Docselection_container({ changeContent }) {
     const [ChangeSlide, setChangeSlide] = useState(0)
-    console.log("Estoy dentro")
     
     const changeSlideEvent = (slide) => {
       setChangeSlide(slide);
@@ -16,9 +15,13 @@ function Docselection_container() {
 
     return (
       <div>
-        {ChangeSlide === 0 && <DoctorFiltered />}
-        {ChangeSlide === 1 && <Schedule />}
-        {ChangeSlide === 2 && <Confirmation />}
+        {ChangeSlide === 0 && <DoctorFiltered 
+                                changeSlideAct={changeSlideEvent}
+                                ChangeContentTo={changeContent}/>}
+        {ChangeSlide === 1 && <Schedule changeSlideAct={changeSlideEvent}/>}
+        {ChangeSlide === 2 && <Confirmation 
+                                changeSlideAct={changeSlideEvent}
+                                ChangeContentTo={changeContent}/>}
       </div>
     );    
   }
