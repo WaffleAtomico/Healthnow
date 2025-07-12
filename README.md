@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🚀 healthNow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **healthNow**!  
+Your platform to connect with private doctors quickly, easily, and securely.  
+[Access here 👉 waffleatomico.github.io/Healthnow/build](https://waffleatomico.github.io/Healthnow/build)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🩺 What is healthNow?
 
-### `npm start`
+**healthNow** is a web application designed to make communication between users and private doctors simple and accessible. Our goal is to help anyone find, contact, and review healthcare specialists, ensuring trustworthy recommendations and affordable options for everyone.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🌟 Main Features
 
-### `npm test`
+- **Search for doctors** by specialty, location, price, and availability.
+- **Doctor reviews and recommendations** from other users.
+- **Manage your medical records** and have your history always at hand.
+- **Quick diagnosis** through interactive forms inspired by [Symptomate](https://symptomate.com/).
+- **Friendly and intuitive interface** designed for all types of users.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧩 Problem Solved
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Prevents people from not knowing who to contact in case of medical need.
+- Allows users to review and recommend doctors, helping others make informed decisions.
+- Makes it easy to find the best medical option nearby, at the best price and with immediate availability.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💡 How do we solve it?
 
-### `npm run eject`
+- Medical records management system.
+- Easy identification of the right specialist based on your symptoms.
+- Quick diagnosis and personalized suggestions.
+- Structured forms for a fast and clear experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 👨‍💻 About the Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Developed by:  
+**Oscar / WaffleAtomico** – Responsible for the web environment, target audience analysis, and user experience.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A team effort to create an inclusive, modern, and user-friendly solution.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠️ Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Technology    | Main Use                       |
+| ------------- | ----------------------------- |
+| React         | Frontend development           |
+| GitHub Pages  | Site deployment                |
+| Figma         | UI/UX planning and prototyping |
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚦 How to Access
 
-### Analyzing the Bundle Size
+Just visit:  
+[waffleatomico.github.io/Healthnow/build](https://waffleatomico.github.io/Healthnow/build)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## ✨ Thank you for visiting healthNow!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have suggestions, comments, or find any bugs, feel free to open an issue or contact me.  
+Your health, just one click away! 💙
